@@ -4,6 +4,7 @@
         <title>Shaan Menon - Projects</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/custom.css">
+        <script src="js/jquery-2.2.1.min.js"></script>
         <script src="js/navbar.js"></script>
         <!--<script src="js/projects.js"></script>-->
     </head>
@@ -24,5 +25,15 @@
                 <p><i>Site still under development</i></p>
             </div>
         </div>
+        <script>
+            $(function(){
+                $('.dropdown').hover(function() {
+                    $(this).addClass('open');
+                },
+                function() {
+                    $(this).removeClass('open');
+                });
+            });
+        </script>
     </body>
 </html>
